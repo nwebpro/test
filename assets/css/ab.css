@@ -1,0 +1,325 @@
+
+.dor-furniture2-small-banner .container {
+    width: 100%
+}
+
+.dor-furniture2-small-banner-base {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    flex-wrap: wrap
+}
+
+.dor-furniture2-small-banner-base > div {
+    flex: 0 0 25%;
+    max-width: 25%;
+    position: relative
+}
+
+.dor-furniture2-small-banner-base>div .dor-furniture2-small-banner-media img {
+    max-width: 100%;
+    height: auto
+}
+
+.dor-furniture2-small-banner-info {
+    position: absolute;
+    bottom: 8%;
+    right: 8%;
+    text-align: right
+}
+
+.dor-furniture2-small-banner-info h3 {
+    text-transform: uppercase;
+    font-size: 22px;
+    letter-spacing: .1em;
+    color: #333;
+    font-weight: 700
+}
+
+.link-for-banner {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1
+}
+
+.dor-small-banner-shop-now {
+    position: relative;
+    z-index: 2;
+    font-family: 'Playfair Display',serif;
+    font-weight: 400;
+    font-style: italic;
+    font-style: 15px;
+    color: #1d1d1d
+}
+
+.dor-small-banner-shop-now:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 1px;
+    width: 100%;
+    -webkit-transform: scaleX(1);
+    -ms-transform: scaleX(1);
+    transform: scaleX(1);
+    -webkit-transform-origin: 100% 0;
+    -ms-transform-origin: 100% 0;
+    transform-origin: 100% 0;
+    background-color: currentColor;
+    will-change: transform
+}
+
+.dor-furniture2-small-banner-base>div.w-stl-color .dor-furniture2-small-banner-info * {
+    color: #fff
+}
+
+.dor-furniture2-main-deal {
+    background-image: url(../img/furniture2_bg_banner.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 35px
+}
+
+.dor-furniture2-main-deal-data {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.dor-furniture2-main-deal-data .dor-furniture2-main-deal-field.main-deal-left {
+    margin-right: 70px;
+    width: 100%;
+    padding-top: 50px;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 100%;
+    flex: 1 1 100%;
+    max-width: 575px
+}
+
+.dor-furniture2-main-deal-data .dor-furniture2-main-deal-field.main-deal-right {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 100%;
+    flex: 1 1 100%
+}
+
+.dor-brand-logo-list {
+    background: #f9f9f9
+}
+
+.dor-furniture2-main-deal-media img {
+    max-width: 100%;
+    height: auto
+}
+
+.dor-furniture2-main-deal-info h2 a {
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #333
+}
+
+.dor-deal-old-shortdesc {
+    font-size: 18px;
+    line-height: 25px
+}
+
+.dor-furniture2-deal-addcart a {
+    display: inline-block;
+    border: 1px #333 solid;
+    padding: 15px 35px;
+    font-size: 19px;
+    font-style: italic;
+    font-weight: 400;
+    color: #333;
+    font-family: 'Playfair Display',serif
+}
+
+.dor-furniture2-deal-addcart {
+    margin-top: 35px
+}
+
+.dor-deal-old-price {
+    color: #7a7a7a;
+    text-decoration: line-through;
+    font-size: .875rem
+}
+
+.dor-furniture2-deal-price span {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 300;
+    font-family: 'Playfair Display',serif
+}
+
+.dor-furniture2-deal-price span.dor-deal-old-current {
+    color: #333;
+    font-weight: 400
+}
+
+.dor-furniture2-deal-price span.dor-deal-old-price {
+    margin-right: 7px
+}
+
+.dor-deal-old-shortdesc {
+    margin-top: 20px
+}
+
+#dor-furniture2-deal-obj {
+    display: flex;
+    margin-top: 25px;
+    margin-left: -5px;
+    margin-right: -5px
+}
+
+#dor-furniture2-deal-obj .item-time {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 60px
+}
+
+#dor-furniture2-deal-obj .item-time>span {
+    width: 100%;
+    flex: 0 0 100%
+}
+
+#dor-furniture2-deal-obj .item-time span.dw-time {
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    border: 1px #fff solid;
+    background-color: #fff;
+    color: #333
+}
+
+#dor-furniture2-deal-obj .item-time>span.dw-txt {
+    margin-top: 10px;
+    font-size: 17px;
+    font-weight: 500
+}
+
+.dor-furniture2-main-deal-base {
+    padding-top: 70px;
+    padding-bottom: 70px
+}
+.dor-furniture2-small-banner-base>div,.dor-banner-furniture-show-item a,.dor-furniture-banner-item-right-field a {
+    display: block;
+    overflow: hidden;
+    position: relative
+}
+.dor-furniture2-small-banner-base>div img,.dor-banner-furniture-show-item a img,.dor-furniture-banner-item-right-field a img,.dor-furniture-banner-item img,.dor-furniture-sidebar-banner img {
+    -o-object-fit: cover;
+    object-fit: cover;
+    max-width: 100%;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out
+}
+
+.dor-furniture2-small-banner-base>div:hover img,.dor-banner-furniture-show-item a:hover img,.dor-furniture-banner-item-right-field a:hover img,.dor-furniture-banner-item:hover img,.dor-furniture-sidebar-banner:hover img {
+    -webkit-transform: scale(1.07);
+    transform: scale(1.07)
+}
+
+.dor-furniture2-small-banner-base>div::before,.dor-banner-furniture-show-item a::before,.dor-furniture-banner-item-right-field a::before,.dor-furniture-banner-item::before,.dor-furniture-sidebar-banner::before {
+    position: absolute;
+    top: 0;
+    left: -85%;
+    z-index: 2;
+    display: block;
+    content: '';
+    width: 50%;
+    height: 100%;
+    background: -webkit-linear-gradient(left,rgba(255,255,255,0) 0%,rgba(255,255,255,.3) 100%);
+    background: linear-gradient(to right,rgba(255,255,255,0) 0%,rgba(255,255,255,.3) 100%);
+    -webkit-transform: skewX(-25deg);
+    transform: skewX(-25deg)
+}
+
+.dor-furniture2-small-banner-base>div:hover::before,.dor-banner-furniture-show-item a:hover::before,.dor-furniture-banner-item-right-field a:hover::before,.dor-furniture-banner-item:hover::before,.dor-furniture-sidebar-banner:hover::before {
+    -webkit-animation: shine .75s;
+    animation: shine .75s
+}
+
+@-webkit-keyframes shine {
+    100% {
+        left: 125%
+    }
+}
+
+@keyframes shine {
+    100% {
+        left: 125%
+    }
+}
+
+@keyframes image-loop {
+    0% {
+        transform: translate3d(0,-15px,0)
+    }
+
+    50% {
+        transform: translate3d(0,15px,0)
+    }
+
+    100% {
+        transform: translate3d(0,-15px,0)
+    }
+}
+.dor-furniture2-small-banner-base>div,.dor-banner-furniture-show-item a,.dor-furniture-banner-item-right-field a {
+    display: block;
+    overflow: hidden;
+    position: relative
+}
+
+@media(max-width: 1199px) {
+    .dor-furniture2-small-banner-info h3 {
+        font-size: 18px
+    }
+}
+
+@media(max-width: 991px) {
+    .dor-furniture2-small-banner-info h3 {
+        font-size: 16px
+    }
+
+    .dor-small-banner-shop-now {
+        font-size: 13px
+    }
+}
+@media(max-width: 630px) {
+    .dor-furniture2-small-banner-base>div.dor-furniture2-small-banner-item {
+        flex: 0 0 50%;
+        max-width: 50%
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
